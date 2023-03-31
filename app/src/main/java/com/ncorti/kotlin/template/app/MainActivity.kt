@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     // b b b b
     // c c
     // d d d d
+    // e e e e
     private lateinit var binding: ActivityMainBinding
     private lateinit var usbManager: UsbManager
     private lateinit var buttonCheckUvcCamera: Button
