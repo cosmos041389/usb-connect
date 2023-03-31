@@ -11,7 +11,6 @@ import com.ncorti.kotlin.template.app.databinding.ActivityMainBinding
 import com.ncorti.kotlin.template.library.FactorialCalculator
 import com.ncorti.kotlin.template.library.android.ToastUtil
 class MainActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityMainBinding
     private lateinit var usbManager: UsbManager
     private lateinit var buttonCheckUvcCamera: Button
