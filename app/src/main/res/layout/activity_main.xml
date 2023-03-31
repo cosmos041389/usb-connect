@@ -52,22 +52,34 @@
         tools:text="42"
         tools:visibility="visible" />
 
-    <Button
+    <!--Button
         android:id="@+id/button_compute"
         style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/doub_grid_size"
-        android:text="@string/compute"
+        android:text="@string/check_connect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_result" /-->
+
+    <Button
+        android:id="@+id/button_check_uvc_camera"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/doub_grid_size"
+        android:text="@string/check_connect"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_result" />
 
-    <Button
+    <!--Button
         android:id="@+id/button_appcompose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/compose_version"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent" /-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
