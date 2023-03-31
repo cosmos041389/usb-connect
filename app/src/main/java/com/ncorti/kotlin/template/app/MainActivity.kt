@@ -13,7 +13,7 @@ import com.ncorti.kotlin.template.library.android.ToastUtil
 class MainActivity : AppCompatActivity() {
 
     // a b c d
-
+    // e f g h
     private lateinit var binding: ActivityMainBinding
     private lateinit var usbManager: UsbManager
     private lateinit var buttonCheckUvcCamera: Button
